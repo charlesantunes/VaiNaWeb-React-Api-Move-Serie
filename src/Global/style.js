@@ -15,19 +15,24 @@ export const Menu = styled.div`
     background-color: aqua;
     width: 100%;
     height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
     ul{
-      width: 70%;
-      display: flex;
-      justify-content: space-evenly;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
     }
     li{
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-    Link{
-      
+    li:hover{
+        transform:scale(1.1);
+    }
+    .link:hover{
+        color: white;
+
     }
     `
 export const Container = styled.section`
@@ -59,8 +64,8 @@ export const ContainerFS = styled.section`
         flex-wrap: wrap;
     }
     div{
-        width: 20.6%;
-        height: 108vh;
+        width: 300px;
+        height: 125vh;
         margin-bottom: 2vh;
         border: outset 1px Darkgray;
         border-width:5px;
@@ -72,7 +77,7 @@ export const ContainerFS = styled.section`
         height: 6vh;
     }
     img{
-        width: 300px;
+        width: 280px;
     }
     `
 export const Box = styled.div`

@@ -13,9 +13,9 @@ export default class App extends Component{
                 <S.GlobalStyle />
                 <S.Menu>
                     <ul>
-                        <li><Link to={"/"}>Home</Link></li>
-                        <li><Link to={"/filmes"}>Filmes</Link></li>
-                        <li><Link to={"/series"}>Series</Link></li>
+                        <li><Link className='link' to={"/"}>Home</Link></li>
+                        <li><Link className='link' to={"/filmes"}>Filmes</Link></li>
+                        <li><Link className='link' to={"/series"}>Series</Link></li>
                     </ul>
                 </S.Menu>
                 <Routes>
